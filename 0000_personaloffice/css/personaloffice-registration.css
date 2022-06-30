@@ -1,0 +1,58 @@
+body{
+    font-family: Roboto;
+    
+}
+
+h2{
+    color: rgb(134, 17, 230);
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    padding-bottom: 30px;
+}
+.form-registration{
+    background-color: darkorange;
+    margin: 50px;
+    margin: 0 auto;
+    width: 500px;
+    padding: 50px;
+}
+
+label{
+    font-size: 18px;
+}
+
+input{
+    font-size: 16px;
+    padding: 10px;
+    border: none;
+    margin: 10px 0;
+    width: 475px;
+}
+
+.submit{
+    background-color: rgb(163, 240, 11);
+    font-weight: 300;
+    font-size: 18px;
+    padding: 13px;
+    width: 495px;
+}
+
+.submit_a_1{
+    padding: 10px;
+    margin: 10px;
+    background-color: aqua;
+    width: 300px;
+    text-align:center;
+}
+
+a{
+    text-decoration: none;
+}
+
+.registration{
+    background-color: rgb(184, 148, 218);
+    padding: 50px;
+    width: 350px;
+    margin: 50px;
+}

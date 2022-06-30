@@ -1,0 +1,232 @@
+header{
+    background-color: #ff950b;
+    padding:20px;
+}
+
+.wrap_shop{
+    margin-bottom: 50px;
+}
+
+.shop__header-title{
+   font-size: 24px;
+   color:#fb08be;
+   padding-left: 30px;
+}
+
+.shop__header-logo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.shop__header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.shop__block{
+    
+    padding-top: 30px;
+}
+
+.shop__content{
+    background-color: #FFAC0B;
+    padding: 30px 50px 50px 50px;
+}
+
+.shop__content-catalog_title{
+    padding-top: 0;
+    font-size: 28px;
+    width: 215px;
+}
+
+.shop__content-sliders_1-slider__2-1, .shop__content-sliders_1-slider__2-2 {
+    width: 270px;
+    height: 260px;
+    background-color: white;
+}
+
+.shop__content-sliders_1-title {
+    font-size: 24px;
+    color: #E70DB7;
+    margin-bottom: 15px;
+    margin-top: 5px;
+}
+
+.shop__content-sliders_2-slider__2 {
+    width: 600px;
+    height: 200px;
+}
+
+.shop__content-sliders_2-slider__2-1, .shop__content-sliders_2-slider__2-2, .shop__content-sliders_2-slider__2-3 {
+    width: 150px;
+    height: 150px;
+    background-color: tomato;
+}
+
+.shop__content-catalog_ul {
+    background-color: white;
+    padding: 20px;
+    line-height: 30px;
+    font-size: 18px;
+}
+
+.shop__content-sliders_2-slider__1{
+    padding-right: 10px;
+}
+
+.shop__content-sliders_2-slider__3{
+    padding-left: 10px;
+}
+
+.shop__content-sliders_2-slider__down{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FF630B;
+    padding: 30px 55px 55px 55px;
+}
+
+.shop__content-sliders_2-slider__down-1, .shop__content-sliders_2-slider__down-2,.shop__content-sliders_2-slider__down-3,.shop__content-sliders_2-slider__down-4{
+    width: 120px;
+    height: 100px;
+    background-color: white;
+}
+
+.shop__content-sliders_2-slider {
+    padding-top: 30px;
+}
+
+.shop__content-sliders_1-circles__1 a,.shop__content-sliders_1-circles__2 a:,.shop__content-sliders_1-circles__3 a:,.shop__content-sliders_1-circles__4 a:{
+    padding: 5px;
+    
+}
+
+.shop__content-sliders_1-circles__1 a:hover,.shop__content-sliders_1-circles__2 a:hover,.shop__content-sliders_1-circles__3 a:hover,.shop__content-sliders_1-circles__4 a:hover{
+    
+    color:rgba(236, 16, 16, 0.87);
+}
+
+.catalog__wrap{
+    padding: 50px;
+    border: 3px solid #fa3706;
+    margin-bottom: 50px;
+    background-color: #f8910a;
+}
+
+.catalog__wrap-title{
+    font-size: 24px;
+    padding: 0 0 30px 0;
+    color: #ee0aa9;
+}
+
+.catalog__wrap-title a{
+    font-size: 30px;
+    padding: 0 0 30px 0;
+    color: #faf6f9;
+}
+
+.catalog__wrap-articles{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.catalog__wrap-articles_article{
+    width: 230px;
+    height: 340px;
+    background-color: rgb(255, 249, 251);
+    border-radius: 20px;
+}
+
+.small__card_product{
+    width:230px;
+    height:340px;
+    border: 1px solid #fa3706;
+    border-radius: 20px;
+}
+
+.small__card_product-img{
+    margin: 20px;
+    width:190px;
+    height: 190px;
+    background-color: #ffe70b;
+    border-radius: 20px;
+}
+
+.small__card_product-title{
+    margin-left: 20px;
+    color:#fa3706;
+    font-size: 18px;
+}
+
+.small__card_product-title a{
+    
+    color: #fa3706;
+    font-size: 18px;
+}
+
+.small__card_product-small_text{
+    margin-left: 20px;
+    font-size: 15px;
+    color:#ff950b;
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
+
+.small__card_product-box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.small__card_product-price{
+    margin-left: 20px;
+    font-size: 20px;
+    color:#fa3706;
+}
+
+.small__card_product-buy{
+    margin-right: 20px;
+}
+
+.small__card_product-buy a{
+    padding: 7px 20px;
+    color: #f9fcf5;
+    background-color: #fb0859;
+    border-radius: 20px;
+}
+
+footer{
+    padding:30px;
+    text-align: center;
+    margin-top: 50px;
+    background-color: #FF630B;
+}
+
+.footer{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.footer__crm_shop{
+    margin-left: 200px;
+    padding: 15px;
+    background-color: rgb(255, 4, 159);
+    margin-right: 200px;
+    border-radius: 30px;
+}
+
+.footer__crm_shop a{
+    color:rgb(248, 246, 246);
+    font-size: 18px;
+}
+
+.footer__crm_shop-menu ul li a{
+   color:white;
+   line-height: 25px;
+   text-align:start;
+}

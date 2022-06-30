@@ -1,0 +1,65 @@
+body{
+    font-family: Roboto;
+}
+
+h1{
+    text-align: center;
+    color: rgb(255, 0, 170);
+}
+
+h2{
+    color: rgb(134, 17, 230);
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    padding-bottom: 30px;
+}
+.form-office{
+    background-color: darkorange;
+    
+    margin: 0 auto;
+    margin-top: 100px;
+    width: 500px;
+    padding: 50px;
+}
+
+label{
+    font-size: 18px;
+}
+
+input{
+    font-size: 16px;
+    padding: 10px;
+    border: none;
+    margin: 10px 0;
+    width: 475px;
+}
+
+.submit{
+    background-color: rgb(163, 240, 11);
+    font-weight: 300;
+    font-size: 18px;
+    padding: 13px;
+    width: 495px;
+}
+
+.in{
+    width: 500px;
+    margin: 50px;
+    padding: 50px;
+    background-color: rgb(161, 112, 207);
+}
+
+a{
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.submit_a_2, .submit_a_3 {
+    padding: 10px;
+    margin: 30px;
+    width: 400px;
+    text-align: center;
+    background-color: aqua;
+}
+

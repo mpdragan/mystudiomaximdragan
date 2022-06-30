@@ -1,0 +1,148 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+
+a{
+    font-size: 18px;
+}
+
+h1 {
+    list-style: none;
+    text-decoration: none;
+    color:white;
+    text-align: center;
+    margin:0 auto;
+    margin: 50px;
+}
+
+h1 a{
+    list-style: none;
+    text-decoration: none;
+    color:white;
+    text-align: center;
+    margin:0 auto;
+    padding: 15px;
+    background-color: rgb(21, 204, 228);
+    border-radius: 30px;
+    font-size: 30px;
+    
+}
+
+li {
+    list-style-type: none;
+    text-decoration: none;
+    color:white;
+    padding: 15px;
+    background-color: sienna;
+    width: 200px;
+    margin:5px;
+}
+
+
+li a{
+    list-style-type: none;
+    width: 200px;
+    text-decoration: none;
+}
+
+.down_menu{
+    margin-left:0px;
+    display:none;
+}
+
+.li_color:hover .down_menu{
+     display:none;
+     
+     padding: 15px;
+}
+
+.li_color{
+    background-color: white;
+    width: 200px;
+    padding: 0;
+}
+
+.a_hover{
+    background-color: rgb(216, 32, 192);
+    padding: 15px;
+    width: 200px;
+    
+}
+
+/*.save{
+    float:right;
+}*/
+
+.wrap{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.block_center li{
+    background-color: seagreen;
+    padding: 5px;
+}
+
+.block_center ul{
+    margin: 0;
+    padding: 0;
+}
+
+.build{
+    margin:0 0;
+}
+
+.build input{
+    padding: 15px;
+    font-size: 18px;
+    width: 300px;
+    margin-bottom: 20px;
+}
+
+.build button{
+    padding: 15px;
+    font-size: 18px;
+    width: 200px;
+    background-color: #f1cf0e;
+    border: 0;
+}
+
+.build__a{
+    padding: 15px;
+    font-size: 18px;
+    width: 300px;
+    background-color: #f1560e;
+    margin: 10px 0;
+    width: 150px;
+}
+
+.build__a{
+    margin: 20px 0;
+    width: 150px;
+}
+
+.build textarea{
+    font-size: 18px;
+}
+
+td{
+    border:1px solid grey;
+    padding: 15px;
+    width: 200px;
+}
+
+table a{
+    color:rgb(160, 82, 224);
+}
+
+input{
+    width: 500px;
+}
+
+.choice {
+             width: 470px;
+             height: 50px;
+             background: #dfca0c;
+         }

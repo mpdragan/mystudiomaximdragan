@@ -1,0 +1,141 @@
+header{
+    height: 350px;
+    background-color: rgb(255, 0, 255);
+}
+
+.header__menu{
+    height: 90px;
+    background-color: rgb(197, 3, 245);
+}
+
+.header__menu-wrap{
+    height: 90px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__menu-wrap ul li{
+    display: inline-block;
+    margin-left: 50px;
+}
+
+.header__menu-wrap ul li a{
+    font-size: 22px;
+    color:white;
+}
+
+.header__title-logo{
+    font-size: 144px;
+    color:rgb(249, 248, 250);
+    margin-left: 50px;
+}
+
+.header__title-title{
+    font-size: 44px;
+    color:rgb(252, 249, 249);
+    text-align: center;
+    
+}
+
+.header__title-wrap{
+    height: 260px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.wrap__content{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.aside__content{
+    background-color: rgb(53, 119, 240);
+    margin-left: 30px;
+    width: 300px;
+}
+
+.blog__block_content{
+    width: 100%;
+}
+
+.blog__article_1{
+    margin-top: 50px;
+    width: 100%;
+}
+
+.blog__article_2{
+   
+    width: 100%;
+}
+
+.blog__posts{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.blog__posts_1{
+    width: 230px;
+    height: 200px;
+    background-color: cyan;
+}
+
+.blog__posts-post_1{
+    margin-left:50px;
+    margin-top: 30px;
+}
+
+
+
+
+
+
+
+footer{
+    height: 200px;
+    background-color: rgb(108, 30, 210);
+}
+
+.footer__menu-wrap{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+}
+
+.footer__menu-wrap-logo_word{
+    font-size: 100px;
+    color:rgb(235, 192, 4);
+}
+
+.footer__menu-wrap-logo_title{
+    font-size: 22px;
+    color:rgb(77, 235, 4);
+    margin-right: 300px;
+    margin-left: 20px;
+}
+
+.footer__menu-wrap_menu ul li{
+    padding: 3px;
+}
+
+.footer__menu-wrap_menu ul li a{
+   font-size: 16px;
+   color:rgb(235, 192, 4);
+   margin: 5px;
+}
+
+.footer__menu-wrap-logo{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.footer__menu-wrap-logo{
+
+}

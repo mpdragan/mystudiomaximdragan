@@ -1,0 +1,60 @@
+form{
+    margin:0 auto;
+    width: 1000px;
+}
+
+table{
+    width: 1000px;
+    border-style:dashed;
+    border-width:1px;
+}
+
+.foto img{
+    width: 150px;
+    float:right;
+    border: 1px solid black;
+}
+
+.fio{
+    font-size: 36px;
+    font-weight: 500;
+    text-decoration: underline;
+    text-align: center;
+}
+
+.punkt{
+    font-family: Arial;
+    font-weight: 700;
+    background: grey;
+}
+
+.table-work{
+    width:800px;
+}
+
+.white{
+    height: 20px;
+}
+
+.data{
+    font-weight: 700;
+    font-style:italic;
+    float:left;
+}
+
+.firma{
+    font-weight: 700;
+    font-style:italic;
+    padding-left:200px;
+}
+
+.dolgn{
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: Arial;
+}
+
+.purpose{
+    font-size: 18px;
+    font-weight: 700;
+}

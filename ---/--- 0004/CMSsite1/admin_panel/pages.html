@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Адміністраторна панель CMS системи Максима Драгана</title>
+    <link href="style.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <h1>
+      <a href="admin_panel.html"
+        >Адміністраторна панель CMS системи Максима Драгана</a
+      >
+    </h1>
+
+    <a href="../site/index.html"><h3>Перейти на сайт</h3></a>
+
+    <div class="wrap">
+      <div class="menu">
+        <ul>
+          <li class="li_color">
+            <div class="a_hover">
+              <a href="pages.html">Сторінки (Меню)</a>
+            </div>
+            <div class="down_menu">
+              <ul>
+                <li><a href="#">Створити</a></li>
+                <li><a href="#">Редагувати</a></li>
+                <li><a href="#">Видалити</a></li>
+              </ul>
+            </div>
+          </li>
+          <li class="li_color">
+            <div class="a_hover">
+              <a href="posts.html">Записи</a>
+            </div>
+            <div class="down_menu">
+              <ul>
+                <li><a href="#">Створити</a></li>
+                <li><a href="#">Редагувати</a></li>
+                <li><a href="#">Видалити</a></li>
+              </ul>
+            </div>
+          </li>
+
+          <li><a href="#">Веб-дизайн макету</a></li>
+          <li><a href="#">Тема</a></li>
+          <li><a href="constructer.html">Конструктор</a></li>
+        </ul>
+      </div>
+
+      <div class="block_center">
+        <h2>Сторінки</h2>
+        <table class="list" id="employeerList">
+          <div class="" draggable="true">
+          <thead>
+            <tr>
+              
+                <th draggable="true"></th>
+              
+              
+            </tr>
+          </thead>
+          <tbody></tbody>
+          </div>
+        </table>
+
+        
+
+        <div class="build">
+          <form
+            onsubmit="event.preventDefault(); onFormSubmit()"
+            autocomplete="off"
+          >
+            <div>
+              <label>Назва сторінки</label><br />
+              <input
+                type="text"
+                name="page"
+                id="page"
+                placeholder="Введіть назву сторінки"
+              /><br />
+            </div>
+            <div>
+              <input type="submit" value="Нажати" />
+            </div>
+          </form>
+        </div>
+      </div>
+
+      <div class="save">
+        <ul>
+          <li><a href="#">Зберегти як черновик</a></li>
+          <li><a href="#">Опубліковати</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <script type="text/javascript">
+        var th = document.getElementsByTagName('th');
+        var choice_div = document.getElementsByClassName('choice_div');
+        var choice = document.getElementsByClassName('choice');
+        var dragItem = null;
+
+        for (var i of choice_div) {
+            i.addEventListener('dragstart', dragStart)
+        }
+
+        function dragStart() {
+            dragItem = this;
+            setTimeout(() => this.style.display = '', 0);
+        }
+
+
+        for (var j of choice) {
+            j.addEventListener('dragover', dragOver);
+            j.addEventListener('dragenter', dragEnter);
+            j.addEventListener('dragleave', dragleave);
+            j.addEventListener('drop', drop);
+        }
+
+        function dragEnd() {
+            setTimeout(() => this.style.display = 'block', 0);
+            dragItem = this;
+        }
+
+        function dragOver(e) {
+            e.preventDefault();
+            this.style.border = "2px dotted cyan";
+        }
+
+        function dragEnter(e) {
+            e.preventDefault();
+        }
+
+        function dragleave(e) {
+            //e.preventDefault();
+           this.style.border = "none";
+        }
+
+        function drop() {
+            this.append(dragItem);
+        }
+    </script>
+
+    <script src="script.js"></script>
+  </body>
+</html>

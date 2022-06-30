@@ -1,0 +1,102 @@
+.container{
+    max-width: 1170px;
+    margin:0 auto;
+}
+
+ul{
+    padding: 0;
+}
+
+h1{
+    font-size: 50px;
+    color:rgb(255, 0, 85);
+    
+    margin-top:70px;
+}
+
+.subtitle h3{
+    max-width: 1000px;
+    margin:0 auto;
+    color:blueviolet;
+    font-style: italic;
+    line-height: 40px;
+    font-size: 30px;
+    font-weight: 500;
+    padding-bottom: 30px;
+    border-bottom: 2px solid #f1a706;
+}
+
+.header__link {
+    margin: 0 auto;
+    max-width: 300px;
+    padding-top: 30px;
+}
+
+.header__link a{
+    text-decoration: none;
+    font-size:24px;
+    color:rgb(229, 19, 248);
+    padding: 10px 50px;
+    border:2px solid #f1a706;
+    border-radius: 30px;
+}
+
+
+
+.languige h3{
+    font-size: 30px;
+    color: #fcfbf8;
+}
+
+.languige li{
+   list-style-type: none;
+}
+
+.languige li a{
+    text-decoration: none;
+    color:rgb(253, 252, 253);
+    font-size: 20px;
+}
+
+.header__box{
+    position: absolute;
+}
+
+.languige {
+    position: relative;
+    top: 45px;
+    right: -370px;
+    background-color: #ffb007;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.python, .scratch{
+    position: relative;
+    top: 270px;
+}
+
+.python h2, .scratch h2{
+    color: #f1a706;
+}
+
+.python h3, .scratch h3 {
+    color: #f10674;
+}
+
+footer{
+    position: relative;
+    top:300px;
+    min-height: 100px;
+    background-color: #ffb007;
+    text-align: center;
+}
+
+footer p{
+   padding-top: 40px;
+   font-size: 24px;
+   color:white;
+}
+
