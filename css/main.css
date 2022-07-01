@@ -810,12 +810,21 @@ button{
 }
 
 .bakery{
-    margin-top: 20px;
+    margin-top: 15px;
 }
 
 .bakery a{
-    padding: 10px 10px;
+    padding: 5px 5px;
     background-color: #e70d73;
+}
+
+.my_products_magazun {
+    margin-top: 15px;
+}
+
+.my_products_magazun a {
+    padding: 5px 5px;
+    background-color: #e7a20d;
 }
 
 .my_sites {
@@ -890,6 +899,42 @@ button{
 .farm a {
     padding: 10px 10px;
     background-color: #066ef7;
+}
+
+.my_projects_and_programs {
+    margin-top: 15px;
+}
+
+.my_projects_and_programs a {
+    padding: 5px 5px;
+    background-color: #f706eb;
+}
+
+.my_games {
+    margin-top: 15px;
+}
+
+.my_games a {
+    padding: 5px 5px;
+    background-color: #bf06f7;
+}
+
+.my_party {
+    margin-top: 20px;
+}
+
+.my_party a {
+    padding: 10px 10px;
+    background-color: #bf06f7;
+}
+
+.my_plants {
+    margin-top: 20px;
+}
+
+.my_plants a {
+    padding: 10px 10px;
+    background-color: #bf06f7;
 }
 
 
