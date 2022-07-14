@@ -847,6 +847,15 @@ button{
    background-color: #bbb000;
 }
 
+.my_projects_ai {
+    margin-top: 15px;
+}
+
+.my_projects_ai a {
+    padding: 5px 5px;
+    background-color: #bb0de7;
+}
+
 .art_gallery {
    margin-top: 20px;
    
