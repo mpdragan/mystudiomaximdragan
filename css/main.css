@@ -834,17 +834,17 @@ button{
 
 .my_sites a{
    padding: 5px 5px;
-   background-color: #bb0de7;
+   background-color: #bbb000;
 }
 
-.my_mobile_application {
+.my_web_studio_portfolio {
    margin-top: 15px;  
 }
 
 
-.my_mobile_application a{
+.my_web_studio_portfolio a{
    padding: 5px 5px;
-   background-color: #bbb000;
+background-color: #bb0de7;
 }
 
 .my_projects_ai {

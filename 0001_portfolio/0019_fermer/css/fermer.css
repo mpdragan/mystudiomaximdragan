@@ -1,0 +1,33 @@
+h2{
+    text-align: center;
+    font-size: 35px;
+    color: blueviolet;
+    padding: 0;
+    margin: 0;
+}
+
+.wrap-category{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+}
+
+.category{
+    width:500px;
+    background-color: rgb(0, 255, 106);
+    height: 120px;
+    margin:20px;
+    text-align: center;
+    color:white;
+    font-size:20px;
+    padding: 10px;
+}
+
+.category a{
+    color: rgb(244, 252, 246);
+    padding: 10px;
+    margin: 0;
+    
+}

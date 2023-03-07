@@ -6,6 +6,10 @@
 h1{
     text-align: center;
     color: #d904e0;
+    border: 2px solid #ae06f0;
+    padding: 60px 0;
+    line-height: 60px;
+    font-size: 48px;
 }
 
 a{
@@ -69,6 +73,7 @@ nav{
     color:#e0048c;
     text-align: center;
     padding:50px;
+    
 }
 
 h2{
